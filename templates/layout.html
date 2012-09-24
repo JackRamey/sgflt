@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SGFLT.COM</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/custom.css') }}">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a href=# class="brand">SGFLT.COM</a>
+            </div>
+        </div>
+    </div>
+    <div class="container push-down">
+        {% block body %}{% endblock %}
+    </div>
+</body>
+</html>
+

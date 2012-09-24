@@ -1,0 +1,34 @@
+/*!
+ * Author: Jack Ramey
+ *
+ * CSS style designed to accompany Twitter Bootstrap CSS
+ * framework.
+ *
+ */
+.push-down {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.primary {
+    height: 600px;
+}
+
+.snugglup {
+    margin-top: -5px;
+}
